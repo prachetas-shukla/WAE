@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1",
+        "columns": null
+      },
+      "id": "Field_Name",
+      "key": "attendeeName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Date",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_2",
+        "columns": null
+      },
+      "id": "Field_Date",
+      "key": "eventDate",
+      "description": "YYYY-MM-DD"
+    },
+    {
+      "label": "Reason",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_3",
+        "columns": null
+      },
+      "id": "Field_Reason",
+      "key": "registrationReason"
+    }
+  ],
+  "type": "default",
+  "id": "Form_EventRegistration",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "schemaVersion": 8
+}
