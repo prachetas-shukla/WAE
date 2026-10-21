@@ -1,0 +1,12 @@
+camunda:
+  client:
+    mode: saas
+    auth:
+      client-id: YOUR_CLIENT_ID
+      client-secret: YOUR_CLIENT_SECRET
+    cloud:
+      cluster-id: YOUR_CLUSTER_ID
+      region: bru-2
+
+server:
+  port: 8080

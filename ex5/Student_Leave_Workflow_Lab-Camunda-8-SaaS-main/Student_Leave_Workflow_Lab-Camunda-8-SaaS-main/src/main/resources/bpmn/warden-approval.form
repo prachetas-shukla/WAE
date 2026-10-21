@@ -1,0 +1,29 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "1.0.0"
+  },
+  "schemaVersion": 16,
+  "id": "warden-approval-form",
+  "components": [
+    {
+      "text": "### Hostel Out-Pass Approval Request\n\n**Student Name:** {{studentName}}\n**Reg No:** {{regNo}}\n**Hostel Block:** {{hostelBlock}}\n**Out Date:** {{outDate}}\n**Return Date:** {{returnDate}}\n**Parent Phone:** {{parentPhone}}\n**Purpose:** {{purpose}}",
+      "type": "text",
+      "id": "text_details"
+    },
+    {
+      "label": "Approve Out-Pass",
+      "type": "checkbox",
+      "id": "field_approved",
+      "key": "approved"
+    },
+    {
+      "label": "Warden Remarks",
+      "type": "textarea",
+      "id": "field_wardenRemarks",
+      "key": "wardenRemarks"
+    }
+  ]
+}
